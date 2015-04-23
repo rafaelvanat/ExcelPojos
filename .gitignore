@@ -1,7 +1,7 @@
+# Compiled #
 *.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+target
+output
 
 # Package Files #
 *.jar
@@ -10,3 +10,12 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# IDE specific #
+.classpath
+.project
+.metadata
+.settings
+.DS_Store
+.cache
+.factorypath
