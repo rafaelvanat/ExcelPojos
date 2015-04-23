@@ -21,6 +21,7 @@ excel.write(myList);
 excel.close();
 ```
 
+
 Example from [Excel test class (https://github.com/rafaelvanat/ExcelPojos/blob/master/src/tests/com/stinted/excel/test/ExcelTest.java)]
 
 To install this in your maven, first succesfully build it your machine, then:
@@ -29,6 +30,15 @@ mvn install:install-file -Dfile=<path to  jar> -DgroupId="com.stinted.excel"
 -DartifactId="excelPojo" -Dversion="1.0-SNAPSHOT" -Dpackaging=jar
 OR
 mvn install:install-file -Dfile=<path to jar> -DpomFile=<path to POM>
+```
+
+Finally, add this to your pom:
+```xml
+<dependency>
+	<groupId>com.stinted.excel</groupId>
+	<version>1.0-SNAPSHOT</version>
+	<artifactId>excelPojo</artifactId>
+</dependency>
 ```
 
 ### License
