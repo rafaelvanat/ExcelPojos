@@ -23,7 +23,7 @@ excel.close();
 
 Example from [Excel test class (https://github.com/rafaelvanat/ExcelPojos/blob/master/src/tests/com/stinted/excel/test/ExcelTest.java)]
 
-To install thi in your maven, first succesfully build it your machine, then:
+To install this in your maven, first succesfully build it your machine, then:
 ```
 mvn install:install-file -Dfile=<path to  jar> -DgroupId="com.stinted.excel" 
 -DartifactId="excelPojo" -Dversion="1.0-SNAPSHOT" -Dpackaging=jar
