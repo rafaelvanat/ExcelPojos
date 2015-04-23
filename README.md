@@ -12,6 +12,7 @@ To read:
 ```java
 Excel excel = new Excel("TestCaseData.xls");
 List<Case> results = excel.read(myClass.class.getName(), sheetName);
+excel.close();
 ```
 
 To write:
