@@ -1,4 +1,4 @@
-# ExcelPojos
+# ExcelPojos [![Build Status](https://travis-ci.org/rafaelvanat/ExcelPojos.svg?branch=master)](https://travis-ci.org/rafaelvanat/ExcelPojos)
 Simple lib to read a xls file and load a list of java objects and vice-versa.
 Was developed to have zero configuration and just for pojos.
 
